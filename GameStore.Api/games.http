@@ -1,2 +1,6 @@
 @host =  http://localhost:5072
+@id = 90
+
+GET {{host}}/games/{{id}}
+
 GET {{host}}/games
