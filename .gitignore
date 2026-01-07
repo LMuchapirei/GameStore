@@ -1,0 +1,45 @@
+# --- Build Results ---
+[Bb]in/
+[Oo]bj/
+/out/
+
+# --- Visual Studio / VS Code ---
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- IDE/Editor Specific ---
+# JetBrains (Rider)
+.idea/
+*.sln.iml
+
+# --- Dependencies ---
+# NuGet
+packages/
+*.nupkg
+# npm / yarn (common in .NET web projects with client-side libs)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- Testing ---
+TestResults/
+*.trx
+
+# --- Web Specific ---
+# Ignore local setting overrides (Prevent secrets from leaking)
+appsettings.Local.json
+appsettings.Development.json
+appsettings.Override.json
+.env
+
+# Generated web assets (Modify if you check in your built assets)
+# wwwroot/dist/
+# wwwroot/lib/
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
