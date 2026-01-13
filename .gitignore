@@ -46,3 +46,4 @@ Thumbs.db
 GameStore.Api/GameStore.db
 .gitignore
 GameStore.Api/GameStore.db-wal
+GameStore.Api/GameStore.db-shm
