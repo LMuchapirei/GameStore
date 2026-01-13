@@ -1,5 +1,5 @@
 @host =  http://localhost:5072
-@id = 6
+@id = 2
 ###
 GET {{host}}/games/{{id}}
 
@@ -18,7 +18,7 @@ Content-Type: application/json
 } 
 
 ###
-PUT {{host}}/game/{{id}}
+PUT {{host}}/games/{{id}}
 Content-Type: application/json
 
 {
