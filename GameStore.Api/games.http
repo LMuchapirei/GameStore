@@ -11,9 +11,9 @@ POST {{host}}/games
 Content-Type: application/json
 
 {
-  "name": "Call of Duty Modern Warfare 7",
-  "genre": "FPS",
+  "name": "Call of Duty Modern Warfare 8",
   "price": 59.99,
+  "genreId": 3,
   "releaseDate": "2025-09-15"
 } 
 
