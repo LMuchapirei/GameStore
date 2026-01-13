@@ -1,6 +1,33 @@
 @host =  http://localhost:5072
-@id = 90
-
+@id = 6
+###
 GET {{host}}/games/{{id}}
 
+###
 GET {{host}}/games
+
+###
+POST {{host}}/games
+Content-Type: application/json
+
+{
+  "name": "Call of Duty Modern Warfare 7",
+  "genre": "FPS",
+  "price": 59.99,
+  "releaseDate": "2025-09-15"
+} 
+
+###
+PUT {{host}}/game/{{id}}
+Content-Type: application/json
+
+{
+  "id": {{id}},
+  "name": "Call of Duty Modern Warfare 7 - Updated",
+  "genre": "FPS",
+  "price": 49.99,
+  "releaseDate": "2025-09-15"
+}
+
+###
+DELETE {{host}}/game/{{id}}
